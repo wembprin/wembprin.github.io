@@ -179,8 +179,16 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 0.25rem 0.25rem 1.25rem 1.25rem;
   }
+
+  .card-text {
+    margin-top: -10px;
+  }
+}
+
+.col {
+  margin-bottom: 10px;
 }
 
 // Citation
