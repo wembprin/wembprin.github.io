@@ -69,21 +69,6 @@ ninja.data = [{
           description: "",
           section: "Organizers",handler: () => {
               window.location.href = "/organizers/06-grambelli/";
-            },},{id: "organizers-aesuli",
-          title: 'Aesuli',
-          description: "",
-          section: "Organizers",handler: () => {
-              window.location.href = "/organizers/aesuli/";
-            },},{id: "organizers-apedrotti",
-          title: 'Apedrotti',
-          description: "",
-          section: "Organizers",handler: () => {
-              window.location.href = "/organizers/apedrotti/";
-            },},{id: "organizers-gpucce",
-          title: 'Gpucce',
-          description: "",
-          section: "Organizers",handler: () => {
-              window.location.href = "/organizers/gpucce/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -119,30 +104,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://www.alberteinstein.com/", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
