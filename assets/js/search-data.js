@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/event/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -39,16 +46,21 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/desegma_subtaskB/";
+            },},{id: "organizers-00-mbolognesi",
+          title: '00 Mbolognesi',
+          description: "",
+          section: "Organizers",handler: () => {
+              window.location.href = "/organizers/00-mbolognesi/";
             },},{id: "organizers-01-fsebastiani",
           title: '01 Fsebastiani',
           description: "",
           section: "Organizers",handler: () => {
               window.location.href = "/organizers/01-fsebastiani/";
-            },},{id: "organizers-02-mbolognesi",
-          title: '02 Mbolognesi',
+            },},{id: "organizers-02-aesuli",
+          title: '02 Aesuli',
           description: "",
           section: "Organizers",handler: () => {
-              window.location.href = "/organizers/02-mbolognesi/";
+              window.location.href = "/organizers/02-aesuli/";
             },},{id: "organizers-03-gsperduti",
           title: '03 Gsperduti',
           description: "",
@@ -64,11 +76,11 @@ ninja.data = [{
           description: "",
           section: "Organizers",handler: () => {
               window.location.href = "/organizers/05-gpucce/";
-            },},{id: "organizers-06-grambelli",
-          title: '06 Grambelli',
+            },},{id: "organizers-06-grambelli-copy",
+          title: '06 Grambelli copy',
           description: "",
           section: "Organizers",handler: () => {
-              window.location.href = "/organizers/06-grambelli/";
+              window.location.href = "/organizers/06-grambelli%20copy/";
             },},{
         id: 'social-email',
         title: 'email',
