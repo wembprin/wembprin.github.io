@@ -1,0 +1,36 @@
+- day: "Wednesday, February 11"
+  sessions:
+    - time: "14:30 – 15:00"
+      title: "Opening Remarks"
+      speakers: "Marianna Bolognesi and Fabrizio Sebastiani"
+
+    - time: "15:00 – 16:30"
+      title: "WEMB Outcomes 1"
+      speakers: "TBA"
+      # link: "TBA"
+
+    - time: "16:30 – 17:00"
+      title: "Coffee Break"
+      # speakers: "TBA"
+      # link: "TBA"
+
+    - time: "17:00 – 18:00"
+      title: "Panel Discussion: TBA"
+      speakers: "TBA"
+      # link: "TBA"
+
+- day: "Thursday, February 12"
+  sessions:
+    - time: "09:00 – 11:00"
+      title: "WEMB Outcomes 2"
+      speakers: "TBA"
+      # link: "TBA"
+
+    - time: "11:00 – 11:45"
+      title: "Coffee Break"
+      # speakers: "TBA"
+      # link: "TBA"
+
+    - time: "10:45 – 12:45"
+      title: "Final WEMB Discussion"
+      speakers: "Marianna Bolognesi and Fabrizio Sebastiani"
