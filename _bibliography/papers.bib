@@ -1,115 +1,184 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{pedrotti-etal-2025-humans,
+    abbr={ACL},
+    title = "How Humans and {LLM}s Organize Conceptual Knowledge: Exploring Subordinate Categories in {I}talian",
+    author = "Pedrotti, Andrea  and
+      Rambelli, Giulia  and
+      Villani, Caterina  and
+      Bolognesi, Marianna",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.224/",
+    doi = "10.18653/v1/2025.acl-long.224",
+    pages = "4464--4482",
+    ISBN = "979-8-89176-251-0",
+    abstract = "People can categorize the same entity at multiple taxonomic levels, such as basic (bear), superordinate (animal), and subordinate (grizzly bear). While prior research has focused on basic-level categories, this study is the first attempt to examine the organization of categories by analyzing exemplars produced at the subordinate level. We present a new Italian psycholinguistic dataset of human-generated exemplars for 187 concrete words. We then leverage these data to evaluate whether textual and vision LLMs produce meaningful exemplars that align with human category organization across three key tasks: exemplar generation, category induction, and typicality judgment. Our findings show a low alignment between humans and LLMs, consistent with previous studies. However, their performance varies notably across different semantic domains. Ultimately, this study highlights both the promises and the constraints of using AI-generated exemplars to support psychological and linguistic research.",
+    selected={true},
+    preview={concept-ped.png}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{pedrotti-etal-2025-stress,
+    abbr={ACL},
+    title = "Stress-testing Machine Generated Text Detection: Shifting Language Models Writing Style to Fool Detectors",
+    author = "Pedrotti, Andrea  and
+      Papucci, Michele  and
+      Ciaccio, Cristiano  and
+      Miaschi, Alessio  and
+      Puccetti, Giovanni  and
+      Dell{'}Orletta, Felice  and
+      Esuli, Andrea",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.156/",
+    doi = "10.18653/v1/2025.findings-acl.156",
+    pages = "3010--3031",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Recent advancements in Generative AI and Large Language Models (LLMs) have enabled the creation of highly realistic synthetic content, raising concerns about the potential for malicious use, such as misinformation and manipulation. Moreover, detecting Machine-Generated Text (MGT) remains challenging due to the lack of robust benchmarks that assess generalization to real-world scenarios. In this work, we evaluate the resilience of state-of-the-art MGT detectors (e.g., Mage, Radar, LLM-DetectAIve) to linguistically informed adversarial attacks. We develop a pipeline that fine-tunes language models using Direct Preference Optimization (DPO) to shift the MGT style toward human-written text (HWT), obtaining generations more challenging to detect by current models. Additionally, we analyze the linguistic shifts induced by the alignment and how detectors rely on ``linguistic shortcuts'' to detect texts. Our results show that detectors can be easily fooled with relatively few examples, resulting in a significant drop in detecting performances. This highlights the importance of improving detection methods and making them robust to unseen in-domain texts. We release code, models, and data to support future research on more robust MGT detection benchmarks.",
+    preview={mgt-pedrotti.png}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{puccetti-etal-2024-abricot,
+    abbr={CLiC-it},
+    title = "{ABRICOT} - {AB}st{R}actness and Inclusiveness in {CO}ntex{T}: A {CALAMITA} Challenge",
+    author = "Puccetti, Giovanni  and
+      Collacciani, Claudia  and
+      Ravelli, Andrea Amelio  and
+      Esuli, Andrea  and
+      Bolognesi, Marianna",
+    editor = "Dell'Orletta, Felice  and
+      Lenci, Alessandro  and
+      Montemagni, Simonetta  and
+      Sprugnoli, Rachele",
+    booktitle = "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    month = dec,
+    year = "2024",
+    address = "Pisa, Italy",
+    publisher = "CEUR Workshop Proceedings",
+    url = "https://aclanthology.org/2024.clicit-1.128/",
+    pages = "1161--1167",
+    ISBN = "979-12-210-7060-6",
+    abstract = "The ABRICOT Task is designed to evaluate Italian language models on their ability to understand and assess the abstractness and inclusiveness of language, two nuanced features that humans naturally convey in everyday communication. Unlike binary categorizations such as abstract/concrete or inclusive/exclusive, these features exist on a continuous spectrum with varying degrees of intensity. The task is based on a manual collection of sentences that present the same noun phrase (NP) in different contexts, allowing its interpretation to vary between the extremes of abstractness and inclusiveness. This challenge aims to verify the how LLMs perceive subtle linguistic variations and their implications in natural language.",
+    preview={abricot-puccetti.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{moroni-etal-2025-optimizing,
+    abbr={NAACL},
+    title = "Optimizing {LLM}s for {I}talian: Reducing Token Fertility and Enhancing Efficiency Through Vocabulary Adaptation",
+    author = "Moroni, Luca  and
+      Puccetti, Giovanni  and
+      Huguet Cabot, Pere-Llu{\'i}s  and
+      Bejgu, Andrei Stefan  and
+      Miaschi, Alessio  and
+      Barba, Edoardo  and
+      Dell{'}Orletta, Felice  and
+      Esuli, Andrea  and
+      Navigli, Roberto",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.371/",
+    doi = "10.18653/v1/2025.findings-naacl.371",
+    pages = "6646--6660",
+    ISBN = "979-8-89176-195-7",
+    abstract = "The number of pretrained Large Language Models (LLMs) is increasing steadily, though the majority are designed predominantly for the English language. While state-of-the-art LLMs can handle other languages, due to language contamination or some degree of multilingual pretraining data, they are not optimized for non-English languages, leading to inefficient encoding (high token ``fertility'') and slower inference speed.In this work, we thoroughly compare a variety of vocabulary adaptation techniques for optimizing English LLMs for the Italian language, and put forward Semantic Alignment Vocabulary Adaptation (SAVA), a novel method that leverages neural mapping for vocabulary substitution. SAVA achieves competitive performance across multiple downstream tasks, enhancing grounded alignment strategies. We adapt two LLMs: Mistral-7B-v0.1, reducing token fertility by 25{\%}, and Llama-3.1-8B, optimizing the vocabulary and reducing the number of parameters by 1 billion. We show that, following the adaptation of the vocabulary, these models can recover their performance with a relatively limited stage of continual training on the target language. Finally, we test the capabilities of the adapted models on various multi-choice and generative tasks.",
+    preview={opt-puccetti.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{puccetti-etal-2025-wordnet,
+    abbr={GWC},
+    title = "{W}ordnet and Word Ladders: Climbing the abstraction taxonomy with {LLM}s",
+    author = "Puccetti, Giovanni  and
+      Esuli, Andrea  and
+      Bolognesi, Marianna",
+    editor = "Zanchi, Chiara  and
+      Brigada Villa, Luca  and
+      Biagetti, Erica  and
+      Rademaker, Alexandre  and
+      Bond, Francis  and
+      Rigau, German",
+    booktitle = "Proceedings of the 13th Global Wordnet Conference",
+    month = jan,
+    year = "2025",
+    address = "Pavia, Italy",
+    publisher = "Global Wordnet Association",
+    url = "https://aclanthology.org/2025.gwc-1.7/",
+    doi = "10.18653/v1/2025.gwc-1.7",
+    pages = "51--65",
+    abstract = "WordNet has long served as a benchmark for approximating the mechanisms of semantic categorization in the human mind, particularly through its hierarchical structure of word synsets, most notably the IS-A relation. However, these semantic relations have traditionally been curated manually by expert lexicographers, relying on external resources like dic- tionaries and corpora. In this paper, we explore whether large language models (LLMs) can be leveraged to approximate these hierarchical semantic relations, potentially offering a scalable and more dynamic alternative for maintaining and updating the WordNet taxonomy. This investigation addresses the feasibility and implications of automating this process with LLMs by testing a set of prompts encoding dif- ferent sociodemographic traits and finds that adding age and job information to the prompt affects the model ability to generate text in agreement with hierarchical semantic relations while gender does not have a statistically significant impact.",
+    selected={true},
+    preview={wordladders-pucc.png}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{puccetti-etal-2025-invalsi,
+    abbr={COLING},
+    title = "The Invalsi Benchmarks: measuring the Linguistic and Mathematical understanding of Large Language Models in {I}talian",
+    author = "Puccetti, Giovanni  and
+      Cassese, Maria  and
+      Esuli, Andrea",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.453/",
+    pages = "6782--6797",
+    abstract = "While Italian is a high-resource language, there are few Italian-native benchmarks to evaluate generative Large Language Models (LLMs) in this language. This work presents three new benchmarks: Invalsi MATE to evaluate models performance on mathematical understanding in Italian, Invalsi ITA to evaluate language under standing in Italian and Olimpiadi MATE for more complex mathematical understanding. The first two benchmarks are based on the Invalsi tests, which are administered to students of age between 6 and 18 within the Italian school system and have been validated by several experts in teaching and pedagogy, the third one comes from the Italian highschool math Olympics. We evaluate 10 powerful language models on these benchmarks and we find that they are bound by 71{\%} accuracy on Invalsi MATE, achieved by Llama 3.1 70b instruct and by 88{\%} on Invalsi ITA. For both Invalsi MATE and Invalsi ITA we compare LLMs with the average performance of Italian students to show that Llama 3.1 is the only one to outperform them on Invalsi MATE while most models do so on Invalsi ITA, we then show that Olimpiadi MATE is more challenging than Invalsi MATE and the highest accuracy, achieved by Llama 3.1 405b instruct accuracy is 45{\%}.",
+    preview={invalsi-puccetti.png}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{sperduti-nguyen-2025-pset,
+    abbr={EMNLP},
+    title = "{PSET}: a Phonetics-Semantics Evaluation Testbed",
+    author = "Sperduti, Gianluca  and
+      Nguyen, Dong",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.373/",
+    doi = "10.18653/v1/2025.emnlp-main.373",
+    pages = "7346--7356",
+    ISBN = "979-8-89176-332-6",
+    abstract = "We introduce the Phonetics-Semantics Evaluation Testbed (PSET), a new English-based testbed to evaluate phonetic embeddings. Our testbed is built on the assumption that phonetic embeddings should always prioritize phonetics over semantics, and it therefore leverages homophones and synonyms.We use PSET to test three phonetic embedding models: articulatory embeddings, Phoneme2Vec, and XPhoneBERT. The phonetic-based embeddings solve the task with varying degrees of success, with Phoneme2Vec performing the best.We also test five recent LLMs, GPT-4o, Gemini 2.5 Flash, Llama 3.1-8B, OLMo-7B and OLMo 2-7B. Gemini 2.5 Flash performs better than the other models. With this testbed, we hope to advance the development and evaluation of phonetic embedding models.",
+    selected={true},
+    preview={pset-sperduti.png}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+@inproceedings{loia-etal-2025-evaluating,
+  abbr={under review},
+  title = "Evaluating misspelling patterns in gamified data: A sociodemographic analysis for linguistic research",
+  author = "Loia, Adele and Sperduti, Gianluca and Bolognesi, Marianna",
+  year = "2026",
+  booktitle = "under review",
+  }

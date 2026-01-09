@@ -1,5 +1,5 @@
 ---
-layout: organizer 
+layout: profiles
 nav: false
 name: Fabrizio Sebastiani
 email: fabrizio.sebastiani@isti.cnr.it

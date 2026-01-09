@@ -1,5 +1,5 @@
 ---
-layout: organizer 
+layout: profiles
 nav: false
 name: Gianluca Sperduti
 email: gianluca.sperduti@isti.cnr.it

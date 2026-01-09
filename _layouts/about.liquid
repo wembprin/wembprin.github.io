@@ -62,7 +62,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -85,7 +85,7 @@ layout: default
       <h2>Organizers</h2>
       <div class="row row-cols 1 row-cols-md-3">
         {% for organizer in site.organizers %}
-          <div class="col">
+          <div class="col" style="max-width: 25%">
           {% include organizer_card.liquid  %}
           </div>
         {% endfor %}

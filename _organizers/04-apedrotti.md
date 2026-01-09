@@ -1,5 +1,5 @@
 ---
-layout: organizer 
+layout: profiles 
 nav: false
 name: Andrea Pedrotti
 email: andrea.pedrotti@isti.cnr.it

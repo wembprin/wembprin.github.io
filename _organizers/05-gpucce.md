@@ -1,5 +1,5 @@
 ---
-layout: organizer 
+layout: profiles 
 nav: false
 name: Giovanni Puccetti
 email: giovanni.puccettii@isti.cnr.it
