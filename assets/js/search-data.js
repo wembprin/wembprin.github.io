@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-event",
-          title: "event",
+  },{id: "nav-final-event",
+          title: "final event",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -28,6 +28,46 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "members-00-mbolognesi",
+          title: '00 Mbolognesi',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/00-mbolognesi/";
+            },},{id: "members-01-fsebastiani",
+          title: '01 Fsebastiani',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/01-fsebastiani/";
+            },},{id: "members-02-aesuli",
+          title: '02 Aesuli',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/02-aesuli/";
+            },},{id: "members-03-gsperduti",
+          title: '03 Gsperduti',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/03-gsperduti/";
+            },},{id: "members-04-apedrotti",
+          title: '04 Apedrotti',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/04-apedrotti/";
+            },},{id: "members-05-gpucce",
+          title: '05 Gpucce',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/05-gpucce/";
+            },},{id: "members-06-grambelli",
+          title: '06 Grambelli',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/06-grambelli/";
+            },},{id: "members-07-aloia",
+          title: '07 Aloia',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/07-aloia/";
             },},{id: "news-desegma-it-has-been-accepted-as-a-shared-task-of-evalita-2026",
           title: 'DeSegMA-IT has been accepted as a Shared Task of EVALITA 2026',
           description: "",
@@ -56,11 +96,6 @@ ninja.data = [{
           description: "",
           section: "Organizers",handler: () => {
               window.location.href = "/organizers/01-fsebastiani/";
-            },},{id: "organizers-02-aesuli",
-          title: '02 Aesuli',
-          description: "",
-          section: "Organizers",handler: () => {
-              window.location.href = "/organizers/02-aesuli/";
             },},{id: "organizers-03-gsperduti",
           title: '03 Gsperduti',
           description: "",
@@ -76,11 +111,11 @@ ninja.data = [{
           description: "",
           section: "Organizers",handler: () => {
               window.location.href = "/organizers/05-gpucce/";
-            },},{id: "organizers-06-grambelli-copy",
-          title: '06 Grambelli copy',
+            },},{id: "organizers-06-grambelli",
+          title: '06 Grambelli',
           description: "",
           section: "Organizers",handler: () => {
-              window.location.href = "/organizers/06-grambelli%20copy/";
+              window.location.href = "/organizers/06-grambelli/";
             },},{
         id: 'social-email',
         title: 'email',
