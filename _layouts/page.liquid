@@ -18,6 +18,19 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.organizers %}
+    <div style="margin-top: 2.5em;">
+      <h2>Organizers</h2>
+      <div class="row row-cols 1 row-cols-md-3">
+        {% for organizer in site.organizers %}
+          <div class="col" style="max-width: 25%">
+          {% include organizer_card.liquid  %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">

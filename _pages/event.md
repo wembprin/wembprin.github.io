@@ -1,8 +1,10 @@
 ---
 layout: page 
-title: event
+title: final event 
 permalink: /event/
 nav: true
+
+organizers: true
 ---
 
 # TBD
@@ -29,14 +31,32 @@ VENUE: Sala dei Poeti di Palazzo Hercolani (Strada Maggiore 45, BO)
         {{ session.time }}
       </td>
       <td class="schedule-content">
-        <strong>{{ session.title }}</strong><br/>
-        <em>{{ session.speakers }}</em>
+        {{ session.title }}
+        {% if session.speakers %}
+          : <strong>{{ session.speakers}}</strong><br/>
+        {% endif %}
+        <em>{{ session.subtitle }}</em>
         {% if session.link %}
           <br/>
           <a href="{{ session.link }}">[link]</a>
         {% endif %}
       </td>
     </tr>
+
+    {% if session.papers %}
+  {% for paper in session.papers %}
+  <tr class="paper-row">
+    <td class="schedule-time"></td>
+    <td class="schedule-content">
+      <strong>{{ paper.speakers }}</strong>: <em>{{ paper.title }}</em>
+      {% if paper.link %}
+        <a href="{{ paper.link }}">[link]</a>
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+{% endif %}
+
     {% endfor %}
     </tbody>
   </table>
@@ -44,3 +64,9 @@ VENUE: Sala dei Poeti di Palazzo Hercolani (Strada Maggiore 45, BO)
 {% endfor %}
 
 </div>
+
+<!-- <div style="margin-top: 25px">
+  <h2>Final Event Registration Form</h2>
+
+  <iframe width="100%" height="512px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=3EeW6QgbSkW_jGmRgbOJq0Xke4-pu-RLpYrbWX6WeotUNFhXV08xRFA4MzFKMVEyWldGSVI4NjNPQy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> 
+</div> -->

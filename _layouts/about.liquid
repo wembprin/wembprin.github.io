@@ -81,12 +81,12 @@ layout: default
     {% endif %}
 
     <br>
-    {% if page.organizers %}
-      <h2>Organizers</h2>
+    {% if page.members %}
+      <h2>Members</h2>
       <div class="row row-cols 1 row-cols-md-3">
-        {% for organizer in site.organizers %}
+        {% for member in site.members %}
           <div class="col" style="max-width: 25%">
-          {% include organizer_card.liquid  %}
+          {% include member_card.liquid  %}
           </div>
         {% endfor %}
       </div>

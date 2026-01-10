@@ -1,35 +1,70 @@
 - day: "Wednesday, February 11"
   sessions:
     - time: "14:30 – 15:00"
-      title: "Opening Remarks"
+      title: "Opening"
+      subtitle: "Structuring AI: WEMB e l'architettura del significato"
       speakers: "Marianna Bolognesi and Fabrizio Sebastiani"
-
     - time: "15:00 – 16:30"
-      title: "WEMB Outcomes 1"
-      speakers: "TBA"
-      # link: "TBA"
+      title: "WEMB Paper Session (1)"
+      papers:
+        - title: "How humans and LLMs organize conceptual knowledge: Exploring subordinate categories in Italian."
+          speakers: "Giulia Rambelli"
+          link: "https://aclanthology.org/2025.acl-long.224/"
+        
+        - title: "Wordnet and Word Ladders: Climbing the abstraction taxonomy with LLMs."
+          speakers: "Giovanni Puccetti"
+          link: "https://aclanthology.org/2025.gwc-1.7/"
+
+        - title: "Misspellings in Natural Language Processing: A survey."
+          speakers: "Gianluca Sperduti"
+          link: "https://arxiv.org/abs/2501.16836"
+
+        - title: "Typoglycemia under the Hood: Investigating Language Models' Understanding of Scrambled Words."
+          speakers: "Gianluca Sperduti"
+          link: "https://arxiv.org/abs/2510.21326v1"
 
     - time: "16:30 – 17:00"
       title: "Coffee Break"
-      # speakers: "TBA"
-      # link: "TBA"
-
     - time: "17:00 – 18:00"
       title: "Panel Discussion: TBA"
       speakers: "TBA"
-      # link: "TBA"
 
 - day: "Thursday, February 12"
   sessions:
+    - time: "14:30 – 15:00"
+      title: "Opening"
+      subtitle: "Structuring AI: WEMB e l'architettura del significato"
+      speakers: "Marianna Bolognesi and Fabrizio Sebastiani"
+
     - time: "09:00 – 11:00"
-      title: "WEMB Outcomes 2"
-      speakers: "TBA"
-      # link: "TBA"
+      title: "WEMB Paper Session (2)"
+      papers:
+        - title: "Stress-testing Machine Generated Text Detection: Shifting Language Models Writing Style to Fool Detectors"
+          speakers: "Andrea Pedrotti"
+          link: "https://aclanthology.org/2025.findings-acl.156/"
+        
+        - title: "Brownie IS-A cake, but sugar is not: Can encoders annotate and clean children’s (mis)built semantic hierarchies?"
+          speakers: "Adele Loia"
+        
+        - title: "The Invalsi Benchmarks: measuring the Linguistic and Mathematical understanding of Large Language Models in Italian."
+          speakers: "Giovanni Puccetti"
+          link: "https://aclanthology.org/2025.coling-main.453/"
+        
+        - title: "Optimizing LLMs for Italian: Reducing Token Fertility and Enhancing Efficiency Through Vocabulary Adaptation."
+          speakers: "Giovanni Puccetti"
+          link: "https://aclanthology.org/2025.findings-naacl.371/"
+        
+        - title: "PSET: A Phonetics-Semantics Evaluation Testbed"
+          speakers: "Gianluca Sperduti"
+          link: "https://aclanthology.org/2025.emnlp-main.373/"
+        
+        - title: "ABRICOT - ABstRactness and Inclusiveness in COntexT: A CALAMITA Challenge."
+          speakers: "Andrea Ravelli"
+          link: "https://aclanthology.org/2025.emnlp-main.373/"
+
 
     - time: "11:00 – 11:45"
       title: "Coffee Break"
-      # speakers: "TBA"
-      # link: "TBA"
 
     - time: "10:45 – 12:45"
       title: "Final WEMB Discussion"
