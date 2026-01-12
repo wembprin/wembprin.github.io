@@ -28,16 +28,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "members-00-mbolognesi",
-          title: '00 Mbolognesi',
+            },},{id: "members-00-fsebastiani",
+          title: '00 Fsebastiani',
           description: "",
           section: "Members",handler: () => {
-              window.location.href = "/members/00-mbolognesi/";
-            },},{id: "members-01-fsebastiani",
-          title: '01 Fsebastiani',
+              window.location.href = "/members/00-fsebastiani/";
+            },},{id: "members-01-mbolognesi",
+          title: '01 Mbolognesi',
           description: "",
           section: "Members",handler: () => {
-              window.location.href = "/members/01-fsebastiani/";
+              window.location.href = "/members/01-mbolognesi/";
             },},{id: "members-02-aesuli",
           title: '02 Aesuli',
           description: "",
