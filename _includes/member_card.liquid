@@ -12,11 +12,10 @@
         <div class="card-body">
             <h6 class="card-title"> <a href="{{ member.website }}"> {{ member.name }} </a></h6>
             <div class="d-flex justify-content-between align-items-center">
+                <span class="card-text">{{ member.role }}</span>
+            </div>
+            <div>
                 <span class="card-text">{{ member.affiliation }}</span>
-                {% comment %} <div>
-                    <a href="{{ member.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-                    <a href="{{ member.scholar }}" class="ml-2"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </div> {% endcomment %}
             </div>
         </div>
     </div>

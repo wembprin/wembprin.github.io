@@ -14,7 +14,7 @@ footer_text: >
   Codice Progetto: 2022EPTPJ9_002 Data inizio: 28/09/2023 Data fine: 27/09/2025 (prorogato a 28 febbraio 2026) CUP: J53D23007100001 Finanziato dall'Unione Europea - NextGenerationEU a valere sul Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Istruzione e ricerca – Componente 2 Dalla ricerca all’impresa - Investimento 1
 keywords: # jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔎 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://wembprin.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
