@@ -43,6 +43,11 @@ ninja.data = [{
           description: "",
           section: "Members",handler: () => {
               window.location.href = "/members/02-aesuli/";
+            },},{id: "members-02-amoreo",
+          title: '02 Amoreo',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/02-amoreo/";
             },},{id: "members-03-gsperduti",
           title: '03 Gsperduti',
           description: "",
@@ -53,21 +58,26 @@ ninja.data = [{
           description: "",
           section: "Members",handler: () => {
               window.location.href = "/members/04-apedrotti/";
-            },},{id: "members-05-gpucce",
-          title: '05 Gpucce',
+            },},{id: "members-05-aloia",
+          title: '05 Aloia',
           description: "",
           section: "Members",handler: () => {
-              window.location.href = "/members/05-gpucce/";
+              window.location.href = "/members/05-aloia/";
             },},{id: "members-06-grambelli",
           title: '06 Grambelli',
           description: "",
           section: "Members",handler: () => {
               window.location.href = "/members/06-grambelli/";
-            },},{id: "members-07-aloia",
-          title: '07 Aloia',
+            },},{id: "members-07-gpucce",
+          title: '07 Gpucce',
           description: "",
           section: "Members",handler: () => {
-              window.location.href = "/members/07-aloia/";
+              window.location.href = "/members/07-gpucce/";
+            },},{id: "members-08-cvillani",
+          title: '08 Cvillani',
+          description: "",
+          section: "Members",handler: () => {
+              window.location.href = "/members/08-cvillani/";
             },},{id: "news-desegma-it-has-been-accepted-as-a-shared-task-of-evalita-2026",
           title: 'DeSegMA-IT has been accepted as a Shared Task of EVALITA 2026',
           description: "",
