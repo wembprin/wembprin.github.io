@@ -23,6 +23,10 @@
           speakers: "Gianluca Sperduti"
           link: "https://arxiv.org/abs/2510.21326v1"
 
+        - title: "Evaluating misspelling patterns in gamified data: A sociodemographic analysis for linguistic research"
+          speakers: "Adele Loia and Gianluca Sperduti"
+          # link: "https://aclanthology.org/2025.findings-acl.123/"
+
     - time: "16:30 – 17:00"
       title: "Coffee Break"
     - time: "17:00 – 18:00"
