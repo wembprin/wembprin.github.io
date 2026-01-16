@@ -21,7 +21,8 @@ members: true
 
 profile:
   align: right 
-  image: LogoWEMB.png
+  image: logo_WEMB_new_small.png
+  # image: LogoWEMB.png
   image_circular: false # crops the image to make it circular
   more_info:
 ---
