@@ -28,6 +28,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "invitedspeakers-00-vpresutti",
+          title: '00 Vpresutti',
+          description: "",
+          section: "Invitedspeakers",handler: () => {
+              window.location.href = "/invitedspeakers/00-vpresutti/";
+            },},{id: "invitedspeakers-01-ftamburini",
+          title: '01 Ftamburini',
+          description: "",
+          section: "Invitedspeakers",handler: () => {
+              window.location.href = "/invitedspeakers/01-ftamburini/";
+            },},{id: "invitedspeakers-02-fbianchini",
+          title: '02 Fbianchini',
+          description: "",
+          section: "Invitedspeakers",handler: () => {
+              window.location.href = "/invitedspeakers/02-fbianchini/";
+            },},{id: "invitedspeakers-03-mpalmirani",
+          title: '03 Mpalmirani',
+          description: "",
+          section: "Invitedspeakers",handler: () => {
+              window.location.href = "/invitedspeakers/03-mpalmirani/";
+            },},{id: "invitedspeakers-04-dfrassinelli",
+          title: '04 Dfrassinelli',
+          description: "",
+          section: "Invitedspeakers",handler: () => {
+              window.location.href = "/invitedspeakers/04-dfrassinelli/";
             },},{id: "members-00-fsebastiani",
           title: '00 Fsebastiani',
           description: "",
