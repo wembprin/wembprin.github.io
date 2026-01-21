@@ -153,6 +153,8 @@ collections:
     output: false
   members:
     output: false
+  invitedspeakers:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

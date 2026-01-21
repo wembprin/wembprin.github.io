@@ -31,7 +31,7 @@
       title: "Coffee Break"
     - time: "17:00 – 18:00"
       title: "Panel Discussion: TBA"
-      speakers: "TBA"
+      speakers: "Valentina Presutti, Fabio Tamburini, Francesco Bianchini, Monica Palmirani, and Diego Frassinelli"
 
 - day: "Thursday, February 12"
   sessions:
@@ -53,7 +53,7 @@
           speakers: "Giovanni Puccetti"
           link: "https://aclanthology.org/2025.findings-naacl.371/"
         
-        - title: "PSET: A Phonetics-Semantics Evaluation Testbed"
+        - title: "PSET: A Phonetics-Semantics Evaluation Testbed."
           speakers: "Gianluca Sperduti"
           link: "https://aclanthology.org/2025.emnlp-main.373/"
         

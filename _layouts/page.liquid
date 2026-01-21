@@ -18,6 +18,19 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.invitedspeakers %}
+    <div style="margin-top: 2.5em;">
+      <h2>Panel Discussion Speakers</h2>
+      <div class="row row-cols 1 row-cols-md-3">
+        {% for invitedspeaker in site.invitedspeakers %}
+          <div class="col" style="max-width: 25%">
+          {% include invitedspeaker_card.liquid  %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
   {% if page.organizers %}
     <div style="margin-top: 2.5em;">
       <h2>Organizers</h2>
@@ -41,4 +54,16 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+
+
+  {% if page.registrationform %}
+    <a id="form-registration"></a>
+    <div style="margin-top: 25px">
+      <h2>Final Event Registration Form</h2>
+
+      <iframe width="100%" height="512px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=3EeW6QgbSkW_jGmRgbOJq0Xke4-pu-RLpYrbWX6WeotUNFhXV08xRFA4MzFKMVEyWldGSVI4NjNPQy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> 
+    </div>
+  {% endif %}
+
+
 </div>

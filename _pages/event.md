@@ -1,16 +1,21 @@
 ---
 layout: page 
 title: final event 
+invitedspeakers: true
+registrationform: true
 permalink: /event/
 nav: true
 
 organizers: true
 ---
 
-# TBD
+Please, <a href="#form-registration">register</a> to the event via the form at within this webpage.
 
 >
-VENUE: Sala dei Poeti di Palazzo Hercolani (Strada Maggiore 45, BO)
+VENUE February 11: <a href="https://maps.app.goo.gl/KEvaVQaq8w64Crqj8">Aula Prodi</a>, piazza S. Giovanni in Monte 2 (BO), piano terra.
+>
+VENUE February 12: <a href="https://maps.app.goo.gl/aAJCHC45iQe2Z6dT6">Aula 4</a> del Palazzo Hercolani, Strada Maggiore 45 (BO), piano terra
+
 
 <div class="schedule">
 
@@ -65,7 +70,8 @@ VENUE: Sala dei Poeti di Palazzo Hercolani (Strada Maggiore 45, BO)
 
 </div>
 
-<!-- <div style="margin-top: 25px">
+<!-- <a id="form-registration"></a>
+<div style="margin-top: 25px">
   <h2>Final Event Registration Form</h2>
 
   <iframe width="100%" height="512px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=3EeW6QgbSkW_jGmRgbOJq0Xke4-pu-RLpYrbWX6WeotUNFhXV08xRFA4MzFKMVEyWldGSVI4NjNPQy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> 

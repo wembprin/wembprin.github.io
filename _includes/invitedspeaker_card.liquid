@@ -1,0 +1,18 @@
+    <div class="card h-100 hoverable">
+        {% if invitedspeaker.image %}
+            {%
+                include figure.liquid
+                loading="eager"
+                path=invitedspeaker.image
+                sizes="250px"
+                alt=invitedspeaker.name
+                class="card-img-top"
+            %}
+        {% endif %}
+        <div class="card-body">
+            <h6 class="card-title"> <a href="{{ invitedspeaker.website }}"> {{ invitedspeaker.name }} </a></h6>
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="card-text">{{ invitedspeaker.affiliation }}</span>
+            </div>
+        </div>
+    </div>
