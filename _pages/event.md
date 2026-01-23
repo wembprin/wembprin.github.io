@@ -16,6 +16,7 @@ VENUE February 11: <a href="https://maps.app.goo.gl/KEvaVQaq8w64Crqj8">Aula Prod
 >
 VENUE February 12: <a href="https://maps.app.goo.gl/aAJCHC45iQe2Z6dT6">Aula 4</a> del Palazzo Hercolani, Strada Maggiore 45 (BO), piano terra
 
+Please note that the event will be held in Italian.
 
 <div class="schedule">
 
