@@ -30,7 +30,8 @@
     - time: "16:30 – 17:00"
       title: "Coffee Break"
     - time: "17:00 – 18:00"
-      title: "Panel Discussion: TBA"
+      title: "Panel Discussion"
+      subtitle: "Dalle rappresentazioni vettoriali all’IA generativa: convergenza funzionale o cognitiva?"
       speakers: "Valentina Presutti, Fabio Tamburini, Francesco Bianchini, Monica Palmirani, and Diego Frassinelli"
 
 - day: "Thursday, February 12"
