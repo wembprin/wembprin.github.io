@@ -2,7 +2,7 @@
 layout: profiles
 nav: false
 name: Diego Frassinelli
-affiliation: Konstanz University
+affiliation: LMU Munich
 image: assets/img/dfrassinelli.png
-website: https://www.ling.uni-konstanz.de/frassinelli/
+website: https://www.cis.uni-muenchen.de/personen/mitarbeiter/frassinelli/index.html
 ---
