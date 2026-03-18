@@ -181,6 +181,18 @@
   author = "Loia, Adele and Sperduti, Gianluca and Bolognesi, Marianna",
   year = "2026",
   booktitle = "under review",
+  abstract = {Misspellings are common in written language, but how they vary across writing tools and speaker
+  profiles remains underexplored. This study investigates the relationship between sociodemographic
+  factors and orthographic variation in a gamified environment. Specifically, it examines how age,
+  occupation, education, and reading habits influence spelling variation during a linguistic production
+  task. Data were collected through the mobile application Word Ladders, through which we collected
+  6700 word ladders from a variety of users. A detailed coding scheme was developed to classify
+  different forms of divergence from the orthographic norm, including typographical deviations and
+  non-standard spellings. Results of quantitative analyses reveal significant associations between
+  sociodemographic profiles and misspellings patterns, with broader implications for linguistic research
+  in naturalistic settings such as social media and gamified platforms. By identifying potential biases
+  in data collection and interpretation, this study contributes to improving methodologies for studying
+  written language and ensuring data quality in linguistic research.}
   }
 
 @article{sperduti2025misspellingsnaturallanguageprocessing,
@@ -288,6 +300,21 @@ address={Pisa, Italy},
   title={GSM-Identity: Evaluating Mathematical Reasoning in LLMs via Equivalence Transformation},
   author={Negi, Kajal and Puccetti, Giovanni and Esuli, Andrea},
   journal={Machine Learning},
-  year={2026}
+  year={2026},
+  abstract={We introduce GSM-Identity, a pipeline to modify existing mathematical reasoning benchmarks by adding extra complexity to the questions while preserving their fundamental meaning.
+  By systematically transforming numerical values in the GSM8K dataset into mathematically equivalent but less obvious expressions, we create a benchmark to measure Large Language Models (LLMs) mathematical understanding.
+  We evaluate LLMs ranging from 7 billions to 72 billions parameters using multiple prompting strategies, including standard, notice-based, and chain-of-thought approaches. We find that Math oriented models can retain most of their performance on GSM8K when evaluated on GSM-Identity, while general purpose models show significant performance degradation.
+  A comparison with human evaluations reveals that models in the 7 billion parameters range perform similar to humans when exposed to the kind of modifications we study, while models with more than 70 billion parameters are more accurate than humans in answering the questions and they are also more resilient to modifications.
+  Our findings highlight GSM-Identity as a valuable tool for distinguishing reasoning from memorization, offering insights into the abilities of LLMs to understand higher level mathematical concepts.}
+}
+
+@article{negi2025multi,
+  abbr={TIST},
+  author={Negi, Kajal and Puccetti, Giovanni and Esuli, Andrea},
+  journal = {Transactions on Intelligent Systems and Technology},
+  title = {A Multi-Perspective Evaluation of Mathematical Reasoning in Vision and Language Models},
+  year = {2026},
+  abstract={Large language models (LLMs) and multimodal large language models (MLLMs) are increasingly used for
+  mathematical reasoning, yet their reliability is still largely assessed through conventional accuracy-based methods that fail to capture deeper aspects of reasoning and robustness. We argue that mathematical competence requires more than producing correct answers: a truly reasoning system should also give consistent answers to equivalent formulations of the same problem, reliably verify whether a proposed solution is correct, and recognize when a problem has no solution or admits multiple solutions. Accordingly, we propose a multi-faceted evaluation framework comprising four complementary tasks: (i) Answer Accuracy, the standard protocol; (ii) Identical-Question consistency, measuring whether a model returns the same answer for semantically equivalent questions; (iii) Answer Verification, assessing a model’s ability to judge the correctness of a given question–answer pair; and (iv) Non-unique Solvability detection, testing whether a model can identify problems that have no solution or infinitely many solutions. We evaluate 13 models from five model families (LLaVA-OneVision, InternLM-XComposer, Llama, Qwen, and VL-Rethinker) across five datasets. To support this evaluation, we introduce PaRallelMath, a geometry dataset of 782 samples arranged in mathematically identical visual pairs, and NoUni, a 300-sample dataset of problems with no unique solution. Our results show that all models exhibit measurable inconsistency on equivalent questions, display positive biases when verifying answers, and largely fail to detect unsolvable or under-determined problems, even when their standard accuracy is high. These findings highlight the limitations of accuracy-only evaluation and underscore the need for broader, multi-dimensional assessment of mathematical reasoning in (M)LLMs for greater reliabilityand usability.}
 }
 
