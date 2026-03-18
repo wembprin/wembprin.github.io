@@ -318,3 +318,37 @@ address={Pisa, Italy},
   mathematical reasoning, yet their reliability is still largely assessed through conventional accuracy-based methods that fail to capture deeper aspects of reasoning and robustness. We argue that mathematical competence requires more than producing correct answers: a truly reasoning system should also give consistent answers to equivalent formulations of the same problem, reliably verify whether a proposed solution is correct, and recognize when a problem has no solution or admits multiple solutions. Accordingly, we propose a multi-faceted evaluation framework comprising four complementary tasks: (i) Answer Accuracy, the standard protocol; (ii) Identical-Question consistency, measuring whether a model returns the same answer for semantically equivalent questions; (iii) Answer Verification, assessing a model’s ability to judge the correctness of a given question–answer pair; and (iv) Non-unique Solvability detection, testing whether a model can identify problems that have no solution or infinitely many solutions. We evaluate 13 models from five model families (LLaVA-OneVision, InternLM-XComposer, Llama, Qwen, and VL-Rethinker) across five datasets. To support this evaluation, we introduce PaRallelMath, a geometry dataset of 782 samples arranged in mathematically identical visual pairs, and NoUni, a 300-sample dataset of problems with no unique solution. Our results show that all models exhibit measurable inconsistency on equivalent questions, display positive biases when verifying answers, and largely fail to detect unsolvable or under-determined problems, even when their standard accuracy is high. These findings highlight the limitations of accuracy-only evaluation and underscore the need for broader, multi-dimensional assessment of mathematical reasoning in (M)LLMs for greater reliabilityand usability.}
 }
 
+@inproceedings{puccetti-etal-2024-invalsi,
+    preview={invalsi_clicit.png},
+    abbr={CLiC-it},
+    title = "{INVALSI} - Mathematical and Language Understanding in {I}talian: A {CALAMITA} Challenge",
+    author = "Puccetti, Giovanni  and
+      Cassese, Maria  and
+      Esuli, Andrea",
+    editor = "Dell'Orletta, Felice  and
+      Lenci, Alessandro  and
+      Montemagni, Simonetta  and
+      Sprugnoli, Rachele",
+    booktitle = "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    month = dec,
+    year = "2024",
+    address = "Pisa, Italy",
+    publisher = "CEUR Workshop Proceedings",
+    url = "https://aclanthology.org/2024.clicit-1.129/",
+    pages = "1168--1175",
+    ISBN = "979-12-210-7060-6",
+    html= "https://ceur-ws.org/Vol-3878/129_calamita_long.pdf",
+    abstract = "While Italian is a high resource language, there are few Italian-native benchmarks to evaluate Language Models (LMs) generative abilities in this language. This work presents two new benchmarks: Invalsi MATE to evaluate models performance on mathematical understanding in Italian and Invalsi ITA to evaluate language understanding in Italian.These benchmarks are based on the Invalsi tests, which are administered to students of age between 6 and 18 within the Italian school system. These tests are prepared by expert pedagogists and have the explicit goal of testing average students' performance over time across Italy. Therefore, the questions are well written, appropriate for the age of the students, and are developed with the goal of assessing students' skills that are essential in the learning process, ensuring that the benchmark proposed here measures key knowledge for undergraduate students.Invalsi MATE is composed of 420 questions about mathematical understanding, these questions range from simple money counting problems to Cartesian geometry questions, e.g. determining if a point belongs to a given line. They are divided into 4 different types: scelta multipla (multiple choice), vero/falso (true/false), numero (number), completa frase (fill the gap). Invalsi ITA is composed of 1279 questions regarding language understanding, these questions involve both the ability to extract information and answer questions about a text passage as well as questions about grammatical knowledge. They are divided into 4 different types: scelta multipla (multiple choice), binaria (binary), domanda aperta (open question) and altro (other).We evaluate 4 powerful language models both English-first and tuned for Italian to see that best accuracy on Invalsi MATE is 55{\%} while best accuracy on Invalsi ITA is 80{\%}."
+}
+
+@inproceedings{cassese2026benchmarking,
+  abbr={under review},
+  title = "Benchmarking Accuracy and Bias on Encyclopedic Knowledge in (Vision-)Language Models",
+  author = "Cassese, Maria and Puccetti, Giovanni and Esuli, Andrea",
+  year = "2026",
+  booktitle = "under review",
+  abstract = {Large language models are increasingly used as ad-hoc encyclopedic assistants, yet there is still limited large-scale evaluation of how well they encode encyclopedic knowledge and whether their failures are distributed evenly across entities and groups.
+  In this study, we evaluate the extent to which LLMs acquire and report encyclopedic information. We introduce a Wikidata-based dataset of 108,854 entities spanning six categories—country leaders, actors, film directors, Olympic athletes, literary characters, and trademarks—enriched with temporal, geographic, gender, and visual metadata. We define an evaluation framework for encyclopedic knowledge that applies controlled prompt templates to both text-only LLMs and vision-language models. 
+  We present a multidimensional bias analysis across continent, country, income group, gender, and online presence. Across models, performance is generally low and uneven: answering behavior is inconsistent, recalling entity names is particularly difficult, and higher-visibility entities are handled more reliably than underrepresented ones. These findings show that encyclopedic information present in training data is not uniformly retained or retrievable, and position our dataset and framework as a basis for future research on encyclopedic knowledge coverage and representation bias in foundation models.
+  }
+}
